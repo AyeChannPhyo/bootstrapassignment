@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PALETTE</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Color Schemes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/colorimage4.jpg"
+            class="d-block w-100"
+            alt="firstimage"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Types of colors</h5>
+            <p>
+              There are 3 types of colors and they are primary color, secondary
+              color and tertiary color.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/colorimage2.jpg"
+            class="d-block w-100"
+            alt="secondimage"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Warm Color or Cold Color</h5>
+            <p>
+              he interior palette is roughly divided into two groups of color:
+              warm and cool colors. Reds, yellows, oranges and beige are warm.
+              Blues, greens and grays are cool. If you look at the color wheel,
+              warm colors are on one side of the wheel, and the cools reside on
+              the other.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/colorimage3.jpg"
+            class="d-block w-100"
+            alt="thirdimage"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RGB or CMYK</h5>
+            <p style="text-align: left">
+              RGB represents red, green and blue. It is the color mode intended
+              for digital communication. CMYK represents cyan, magenta, yellow
+              and key, which means black. It is the color mode intended for
+              printing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="title">
+      <h3 style="text-align: center">Color Schemes</h3>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mt-2">
+          <div class="card">
+            <img
+              src="img/colorimg1.jpg"
+              alt=""
+              class="card-img-top img-fluid"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Monochromatic</h5>
+              <p class="card-text" style="font-size: 11px; text-align: left">
+                Monochromatic (or mono) is a color scheme based on only one,
+                single color tint. It uses only variations (shades) of a single
+                hue, made by altering the saturation and brightness of the base
+                color.
+              </p>
+              <a
+                href="https://www.w3schools.com/colors/colors_monochromatic.asp"
+                class="btn btn-primary"
+              >
+                Click Here for more info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-2">
+          <div class="card">
+            <img src="img/colorimg2.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Complementary</h5>
+              <p class="card-text" style="font-size: 11px; text-align: left">
+                Complementary colours are pairs of colours that contrast with
+                each other more than any other colour, When placed next to each
+                other, they create the strongest contrast for those two colors.
+              </p>
+              <a
+                href="https://www.w3schools.com/colors/colors_complementary.asp"
+                class="btn btn-primary"
+                >Click Here for more info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-2">
+          <div class="card">
+            <img src="img/colorimg3.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Analogous</h5>
+              <p class="card-text" style="font-size: 11px; text-align: left">
+                Analogous colors are a group of three colors that sit next to
+                each other on the color wheel. They are similar and coordinate
+                well.
+              </p>
+              <a
+                href="https://www.w3schools.com/colors/colors_analogous.asp"
+                class="btn btn-primary"
+                >Click Here for more info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-2">
+          <div class="card">
+            <img src="img/colorimg4.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Triadic</h5>
+              <p class="card-text" style="font-size: 11px; text-align: left">
+                A triad is a color scheme, a special variant of the
+                split-complementary color scheme, with the equal distance
+                between all colors.
+              </p>
+              <a
+                href="https://www.w3schools.com/colors/colors_triadic.asp"
+                class="btn btn-primary"
+                >Click Here for more info</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination-container">
+      <nav>
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer">
+      <div class="copyright-txt">
+        <p>copyright&copy;2023.All rights reserved.</p>
+      </div>
+
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
